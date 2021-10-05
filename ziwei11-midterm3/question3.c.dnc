@@ -1,0 +1,6 @@
+  assert(cblist->ncoolbears == NBEARS); // DNC
+  assert(averageTemp < temps[0]); // DNC
+  assert(averageTemp > temps[4]); // DNC
+    assert( getCoolbearCBList( cblist, i)->temperature == temps[i%TEMPS] );// DNC
+    count++; // DNC
+  assert(count == NBEARS); // DNC

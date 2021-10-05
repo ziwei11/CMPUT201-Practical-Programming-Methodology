@@ -1,0 +1,8 @@
+    assert(fint.i == expected.rep); // DNC
+    if (fint.t.sign != expected.sign ||             // DNC
+        fint.t.exponent != expected.exponent ||     // DNC
+        fint.t.mantissa != expected.mantissa) {     // DNC
+      printf("%s\n", expected.name);                // DNC
+      assert(fint.t.sign     == expected.sign);     // DNC
+      assert(fint.t.exponent == expected.exponent); // DNC
+      assert(fint.t.mantissa == expected.mantissa); // DNC

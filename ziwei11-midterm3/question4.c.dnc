@@ -1,0 +1,8 @@
+  char buffer[BUFFSIZE] = {'\0'};// DNC
+  bitString(buffer,'a',ASCIIBITS);// DNC
+  assert(strcmp("1100001", buffer) == 0);// DNC
+  assert(tanh(inputx) < 1.0); // DNC
+  assert(tanh(nextx) == 1.0); // DNC
+  assert(strcmp(buffer2,buffer3) == 0); // DNC
+  assert(strcmp(buffer ,buffer2) <  0); // DNC
+  assert(strcmp(buffer ,buffer3) <  0); // DNC

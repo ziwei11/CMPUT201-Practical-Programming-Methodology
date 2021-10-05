@@ -1,0 +1,11 @@
+const long int temps[] = { // DNC
+  -10,                     // DNC
+  -20,                     // DNC
+  -30,                     // DNC
+  -40,                     // DNC
+  -50,                     // DNC
+  const long int zigtemp = -32; // DNC
+  assert(cblist->ncoolbears == NBEARS);                                  //DNC
+  printf("%s %ld\n", ziggy->name, ziggy->temperature); // DNC
+  assert( getCoolbearCBList( cblist, 0)->temperature == zigtemp2 );      //DNC
+  assert( strcmp(getCoolbearCBList( cblist, 0)->name, ziggy->name) == 0);//DNC
