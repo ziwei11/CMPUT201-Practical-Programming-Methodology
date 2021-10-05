@@ -1,0 +1,1 @@
+clang-tidy --checks=*,-cert-err34-c question1.c -- -std=c99 -pedantic -Wall -Wextra -ftrapv -ggdb3 -o question1 question1.c && oclint --disable-rule=UselessParentheses question1.c -- -std=c99 -pedantic -Wall -Wextra -ftrapv -ggdb3 -o question1 question1.c
